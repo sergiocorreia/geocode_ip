@@ -3,13 +3,14 @@
 ## Usage:
 
 ```stata
-input ip
+clear
+input str20 ip 
 104.79.139.192
 175.203.224.172
 end
 
 geocode_ip ip, clear
-list
+list ip country_name zip_code
 ```
 
 This [do file](test.do) has an example that merges the new data back into the original dataset.
