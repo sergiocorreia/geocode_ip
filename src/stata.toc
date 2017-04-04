@@ -1,0 +1,10 @@
+v 3
+d Sergio Correia (sergio.correia@gmail.com)
+p geocode_ip GEOCODE_IP - Geocode IP addresses
+
+* l word-to-show path-or-url [description]
+* t: Directories within site:
+* t path [description]
+* Packages:
+* p pkgname [description]
+

@@ -29,5 +29,5 @@ This [do file](test.do) has an example that merges the new data back into the or
 ## Installation:
 
 ```stata
-net install geocode_ip, from(https://github.com/sergiocorreia/geocode_ip/raw/master/)
+net install geocode_ip, from(https://github.com/sergiocorreia/geocode_ip/raw/master/src/)
 ```

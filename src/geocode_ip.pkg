@@ -1,0 +1,26 @@
+v 3
+
+d geocode_ip. Retrieve location data from IP addresses
+d
+d
+d
+d Author: Sergio Correia.
+d Support: sergio.correia@gmail.com
+d
+d This program constructs location variables (country, region, city, lat, lon, etc.) 
+d from a variable containing IP addresses.
+d
+d It uses the API service from http://freegeoip.net
+d 
+d
+d KW: geocode
+d KW: ip
+d KW: address
+d
+d Requires: Stata version 12.0
+d
+d Distribution-Date: 20170404
+d
+
+f geocode_ip.ado
+f geocode_ip.sthlp
