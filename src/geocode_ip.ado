@@ -7,6 +7,8 @@ program define geocode_ip
 //	  so we don't do preserve
 //	- Also, only search an IP once (avoid duplicates)
 
+	version 13 // could backport to 12 by using -insheet-
+
 	syntax varname(string) [if] [in], CLEAR [SLEEP(real 0.4)]
 	marksample touse, strok
 	qui keep if `touse'
